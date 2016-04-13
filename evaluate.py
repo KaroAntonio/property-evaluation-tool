@@ -35,6 +35,10 @@ for prop in properties:
 	# Cashflow 
 	prop['cash'] = prop['income'] - prop['cost']
 
+# Sort According to Cashflow
+properties.sort(key = lambda x: x['cash'], reverse = True)
+
+for prop in properties:
 	# Display
 	items = []
 	for d in disp:

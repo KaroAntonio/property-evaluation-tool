@@ -1,4 +1,5 @@
 # Property Evaluation Tool
+Calculates cashflow and ROI for investment properties.
 
 **Fill Out** 'properties.tsv' according to the column headers.
 

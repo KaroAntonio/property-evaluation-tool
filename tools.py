@@ -34,6 +34,7 @@ def load_tsv(fid, delim='\t'):
 	'''
 	f = open(fid,'r')
 	headers = f.readline().strip().split(delim)
+	headers =  [h.strip() for h in headers]
 	properties = []
 	for line in f:
 		if len(line.strip()) == 0:

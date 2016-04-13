@@ -1,5 +1,12 @@
-taxes	cost	beds	income	bath	monthly_payment	list	address	fees	cash
-2814.0	3223.6897760243396	4.0	2600.0	3.0	2289.1897760243396	539000.0	1396 Freeport Dr	0.0	-623.6897760243396
-3267.0	3261.4397760243396	4.0	2600.0	2.0	2289.1897760243396	539000.0	1353 Erinmore Dr	0.0	-661.4397760243396
-3355.0	3433.925077167044	4.0	2600.0	2.0	2454.3417438337106	575000.0	3697 Ellengale Drive	0.0	-833.925077167044
-3181.0	3070.7709229028164	5.0	3250.0	2.0	2105.687589569483	499000.0	3416 Martins Pine Crescent	0.0	179.22907709718356
+cash	cost	notes	address	list	fees	income	beds	taxes	bath	link	monthly_payment
+270.31243753128274	2979.6875624687173	"est. tax, 4/~1"	#83 - 2288 THE COLLEGEWAY WAY	429900.0	241.0	3250.0	5.0	3000.0	3.0	https://www.zolo.ca/mississauga-real-estate/2288-the-collegeway-way/83	1788.6875624687175
+179.22907709718356	3070.7709229028164	-	3416 Martins Pine Crescent	499000.0	0.0	3250.0	5.0	3181.0	2.0	https://www.realtor.ca/Residential/Single-Family/16810049/3416-MARTINS-PINE-CRES-Mississauga-Ontario-L5L2G4-Erin-Mills	2105.687589569483
+101.04036214457392	3148.959637855426	est. tax	3250 The Credit Woodlands	445000.0	341.0	3250.0	5.0	3000.0	3.0	https://www.realtor.ca/Residential/Single-Family/16806748/3250---3250-THE-CREDIT-WOOD-Mississauga-Ontario-L5C2J6-Erindale	1857.9596378554259
+-137.53185517710062	4037.5318551771006	3/~3	2182 Belfast Crescent	699000.0	0.0	3900.0	6.0	3772.0	3.0	https://www.zolo.ca/mississauga-real-estate/2182-belfast-crescent	3023.198521843767
+-253.91961102990217	3503.919611029902	est. tax	#41 - 2199 BURNHAMTHORPE RD	475000.0	550.0	3250.0	5.0	3100.0	4.0	https://www.zolo.ca/mississauga-real-estate/2199-burnhamthorpe-road/41	1995.5862776965687
+-566.491676769901	3816.491676769901	4/~1	3710 Queenston Drive	650000.0	0.0	3250.0	5.0	3817.0	2.0	https://www.zolo.ca/mississauga-real-estate/3710-queenston-drive	2798.4083434365675
+-599.6995879704305	3849.6995879704305	"4/~1, tacky"	3154 Valmarie Avenue	649900.0	0.0	3250.0	5.0	4221.0	4.0	https://www.zolo.ca/mississauga-real-estate/3154-valmarie-avenue	2797.9495879704305
+-623.6897760243396	3223.6897760243396	-	1396 Freeport Dr	539000.0	0.0	2600.0	4.0	2814.0	3.0	https://www.realtor.ca/PropertyDetails.aspx?PropertyId=16770965	2289.1897760243396
+-661.4397760243396	3261.4397760243396	-	1353 Erinmore Dr	539000.0	0.0	2600.0	4.0	3267.0	2.0	https://www.realtor.ca/Residential/Single-Family/16715734/1353-ERINMORE-DR-Mississauga-Ontario-L5C1N6-Erindale	2289.1897760243396
+-833.925077167044	3433.925077167044	-	3697 Ellengale Drive	575000.0	0.0	2600.0	4.0	3355.0	2.0	https://www.realtor.ca/Residential/Single-Family/16754814/3697-ELLENGALE-DR-Mississauga-Ontario-L5C2A1-Erindale	2454.3417438337106
+-1036.5642294106256	3636.5642294106256	-	5 - 3265 South Millway	529000.0	450.0	2600.0	4.0	2919.0	2.0	https://www.zolo.ca/mississauga-real-estate/3265-south-millway-/5	2243.3142294106256
