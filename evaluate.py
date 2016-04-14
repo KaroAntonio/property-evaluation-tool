@@ -23,7 +23,7 @@ for prop in properties:
 	prop['income'] = prop['beds'] * rent
 
 	# Mortgage Payment
-	mp = calc_mortgage_payment( prop['list'] - down, r, p) 
+	mp = calc_mortgage_payment( prop['list'] - down, r, p ) 
 	prop['monthly_payment'] = mp
 
 	# Taxes
