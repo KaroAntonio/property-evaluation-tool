@@ -5,8 +5,8 @@ from tools import *
 rent = 650						# Avg Rent per Room
 down = 40000 					# Down Payment
 insurance = 100					# Home or Otherwise
-utils = 500						# Hydro, Electricity, Waste, Gas
-other = 100						# Additional Fixed Costs (ie Water Tax)
+utils = 500						# Hydro, Electricity, Waste, Gas, Internet
+other = 50 / 12						# Additional Fixed Costs (ie Water Tax)
 r = 0.027						# Mortgage Rate
 p = 25 							# Amortization Period
 
