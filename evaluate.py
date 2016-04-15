@@ -2,35 +2,33 @@ import csv
 from tools import *
 
 # Params
-rent = 650						# Avg Rent per Room
 down = 40000 					# Down Payment
 insurance = 100					# Home or Otherwise
 utils = 500						# Hydro, Electricity, Waste, Gas, Internet
-other = 50 / 12						# Additional Fixed Costs (ie Water Tax)
-r = 0.027						# Mortgage Rate
+r = 0.025						# Mortgage Rate
 p = 25 							# Amortization Period
 
 # Headers to display
 disp = ['cash', 'income', 'cost', 'beds','list', 'address']
 
-costs = [insurance, utils, other]
+costs = [insurance, utils]
 
 properties = load_tsv('properties.tsv')
 
 print('\t'.join(disp))
 for prop in properties:
 	# Income (Monthly) 
-	prop['income'] = prop['beds'] * rent
+	prop['income'] = prop['beds'] * prop['rent']
 
 	# Mortgage Payment
 	mp = calc_mortgage_payment( prop['list'] - down, r, p ) 
 	prop['monthly_payment'] = mp
 
 	# Taxes
-	mt = prop['taxes'] / 12
+	mt = (prop['taxes'] + prop['taxes+']) / 12
 
 	# Cost (Monthly)
-	prop['cost'] = mp + mt + sum(costs) + prop['fees']
+	prop['cost'] = mp + mt + sum(costs) + prop['fees'] 
 
 	# Cashflow 
 	prop['cash'] = prop['income'] - prop['cost']
