@@ -2,7 +2,7 @@ import csv
 from tools import *
 
 # Params
-down = 40000 					# Down Payment
+down = 30000 					# Down Payment
 insurance = 100					# Home or Otherwise
 utils = 500						# Hydro, Electricity, Waste, Gas, Internet
 r = 0.025						# Mortgage Rate
